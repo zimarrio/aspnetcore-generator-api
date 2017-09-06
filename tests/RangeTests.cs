@@ -11,6 +11,7 @@ namespace tests
         [InlineData(0)]
         [InlineData(1)]
         [InlineData(100)]
+        [InlineData(1000)]
         public void CountShouldControlNumberOfResults(int expectedCount)
         {
             var range = new Range { Count = expectedCount };
